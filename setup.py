@@ -23,7 +23,7 @@ setup(name='Questgen',
             'pytz==2022.7.1',
             'python-dateutil==2.8.2',
             'flashtext==2.7',
-            'pandas==1.5.3',
+            'pandas',
             'sentencepiece==0.1.99'
       ],
       package_data={'Questgen': ['questgen.py', 'mcq.py', 'train_gpu.py', 'encoding.py']}
